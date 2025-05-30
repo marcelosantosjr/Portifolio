@@ -1,0 +1,25 @@
+.bg-gradient {
+  background: linear-gradient(to right, #2563eb, #7e22ce) !important;
+  color: white !important;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.progress {
+  height: 8px;
+}
+
+.card-skill {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 1rem;
+}
