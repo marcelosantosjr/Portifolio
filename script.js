@@ -1,36 +1,97 @@
 // Dados
 const skills = [
   { name: "Docker & Kubernetes", level: 95 },
-  { name: "AWS/Azure Cloud", level: 90 },
+  { name: "AWS e Azure", level: 90 },
   { name: "CI/CD Pipelines", level: 92 },
   { name: "E-commerce Platforms", level: 88 },
   { name: "Network Security", level: 85 },
   { name: "Infrastructure as Code", level: 90 },
   { name: "Database Management", level: 87 },
-  { name: "Linux/Unix Systems", level: 93 }
+  { name: "Linux/Unix Systems", level: 65 }
 ];
 
 const experiences = [
   {
-    title: "DevOps Lead Engineer",
-    company: "E-commerce Solutions Inc.",
-    period: "2022 - Presente",
+    title: "Coordenador de Operação de Tecnologia da Informação",
+    company: "Shop Delivery",
+    period: "03/2023 - Presente",
     description: "Liderança de equipe DevOps responsável por infraestrutura de e-commerce de alto volume. Implementação de arquiteturas resilientes e escaláveis.",
     achievements: [
-      "Reduziu tempo de deployment em 70%",
-      "Implementou monitoramento 24/7",
-      "Migrou infraestrutura para cloud"
+      "Liderança e coordenação das equipes de TI, garantindo eficiência operacional e alinhamento estratégico.",
+      "Avaliação e implementação de soluções tecnológicas para otimização de processos internos.",
+      "Gestão de infraestrutura, redes e segurança da informação, garantindo alta disponibilidade e confiabilidade dos sistemas.",
+      "Atuação direta na sustentação e evolução de plataformas de e-commerce e serviços em nuvem."
+    ]
+  },
+   {
+    title: "Analista de TI",
+    company: "Shop Delivery",
+    period: "01/2018 - 03/2023",
+    description: "Liderança de equipe DevOps responsável por infraestrutura de e-commerce de alto volume. Implementação de arquiteturas resilientes e escaláveis.",
+    achievements: [
+      "Responsável técnico pela infraestrutura de TI, garantindo suporte tecnológico e de rede.",
+      "Supervisão e governança de sistemas hospedados em AWS e Cloudways.",
+      "Atendimento e suporte técnico para clientes da plataforma de e-commerce.",
+      "Implementação e manutenção da infraestrutura de redes e segurança computacional.",
+      "Identificação e implementação de soluções tecnológicas para melhoria contínua."
+    ]
+  },
+   {
+    title: "Assistente de Suporte TI",
+    company: "Shop Delivery",
+    period: "12/2016 - 01/2018",
+    description: "Liderança de equipe DevOps responsável por infraestrutura de e-commerce de alto volume. Implementação de arquiteturas resilientes e escaláveis.",
+    achievements: [
+      "Atendimento e suporte técnico via Help Desk para clientes da plataforma de e-commerce.",
+      "Instalação, manutenção e suporte a redes de computadores e equipamentos.",
+      "Configuração e reparo de hardware e software para usuários da empresa."
+    ]
+  },
+   {
+    title: "Estágiário de suporte de informática",
+    company: "Shop Delivery",
+    period: "07/2015 - 12/2016",
+    description: "Liderança de equipe DevOps responsável por infraestrutura de e-commerce de alto volume. Implementação de arquiteturas resilientes e escaláveis.",
+    achievements: [
+      "Suporte técnico para clientes da plataforma via Help Desk.",
+      "Apoio em TI para colaboradores da empresa (hardware e software)",
+      " Instalação e manutenção da infraestrutura de redes e computadores."
     ]
   },
   {
-    title: "Infrastructure Specialist",
-    company: "TechCorp Networks",
-    period: "2020 - 2022",
+    title: "Técnico de Manutenção de Informática",
+    company: "Porque Marketing - Freelancer",
+    period: "04/2015 - 12/2024",
     description: "Especialização em redes de computadores e segurança da informação para ambientes corporativos de grande escala.",
     achievements: [
-      "Projetou arquitetura de rede para 500+ usuários",
-      "Implementou políticas de segurança ISO 27001",
-      "Configurou sistemas de backup automatizado"
+      "Realizou montagem, diagnóstico, manutenção e instalação de computadores.",
+      "Instalou e configurou sistemas operacionais e aplicativos para desktops e servidores.",
+      "Implementou e realizou manutenção de redes de computadores.",
+      "Executou manutenção preventiva e corretiva de computadores e periféricos."
+    ]
+  },
+   {
+    title: "Designer gráfico",
+    company: "Info+Foto",
+    period: "03/2012 - 01/2015",
+    description: "Especialização em redes de computadores e segurança da informação para ambientes corporativos de grande escala.",
+    achievements: [
+      "Atuação no segmento de fotografia, operando equipamentos para revelação e edição de imagens.",
+      "Edição e manipulação de imagens utilizando Adobe Photoshop.",
+      "Suporte na criação de materiais gráficos e tratamento de imagens para clientes.",
+      "Atuação no segmento de fotografia, operando equipamentos para revelação e edição de imagens. - Edição e manipulação de imagens utilizando Adobe Photoshop. - Suporte na criação de materiais gráficos e tratamento de imagens para clientes."
+    ]
+  },
+   {
+    title: "Consultor de Vendas de Soluções Tecnológicas",
+    company: "Euroeletro",
+    period: "08/2009 - 07/2010",
+    description: "Especialização em redes de computadores e segurança da informação para ambientes corporativos de grande escala.",
+    achievements: [
+      "Análise das necessidades tecnológicas dos clientes, propondo soluções personalizadas que atendiam às suas demandas específicas.",
+      "Apresentação de soluções tecnológicas, destacando os benefícios e as vantagens para o cliente, impulsionando a conversão de vendas.",
+      "Responsável pelo fechamento de vendas, com forte atuação em negociações e construção de relacionamentos com os clientes.",
+      "Profundo conhecimento técnico dos produtos e soluções oferecidas, garantindo que as escolhas feitas pelos clientes fossem sempre as mais adequadas para suas operações."
     ]
   }
 ];
